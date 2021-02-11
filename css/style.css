@@ -31,26 +31,26 @@ img, h3 {
 
 /* stop Common */
 
-/* Header */
-header .fixed{
+/* Nav */
+nav .fixed{
     position: fixed;
     z-index: 1;
-    top: 20px;
-    right: 20px;  
+    top: 3vh;
+    right: 3vh;  
 }
 
-header .circle{
-    width: 100px;
-    height: 100px; 
-    border-radius: 50%; 
+nav .circle{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
     background-color: white;
     text-align: center;
-    line-height: 100px;
-    font-size: 30px;
+    line-height: 5vh;
+    font-size: 2vh;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 1vh;
 }
-/* stop Header */
+/* stop Nav */
 
 /* Main */
 
