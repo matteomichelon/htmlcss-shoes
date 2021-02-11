@@ -32,12 +32,23 @@ img, h3 {
 /* stop Common */
 
 /* Header */
-header .circle{
-    border: 1px solid black;
+header .fixed{
     position: fixed;
     z-index: 1;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;  
+}
+
+header .circle{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 20px;
 }
 /* stop Header */
 
