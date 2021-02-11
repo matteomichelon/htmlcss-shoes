@@ -1,0 +1,50 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* stop Reset */
+
+/* Common */
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+.container {
+    background-color: rgb(216, 178, 178);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+img, h3 {
+    width: 60%;
+}
+
+/* stop Common */
+
+/* Main */
+
+main .center {
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h3{    
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 5vh;
+    display: inline-block;    
+}
+
+
