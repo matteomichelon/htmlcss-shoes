@@ -10,10 +10,9 @@
 
 /* Common */
 
-.container{
-position: relative;
+.container {
+    position: relative;
 }
-
 
 body {
     font-family: 'Rubik Mono One', sans-serif;
@@ -32,14 +31,15 @@ img, h3 {
 /* stop Common */
 
 /* Nav */
-nav .fixed{
+
+nav .fixed {
     position: fixed;
     z-index: 1;
     top: 3vh;
-    right: 3vh;  
+    right: 3vh;
 }
 
-nav .circle{
+nav .circle {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -50,6 +50,13 @@ nav .circle{
     display: inline-block;
     margin-left: 1vh;
 }
+
+nav .shadow:hover {
+    box-shadow: 3px 0px 14px black;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
 /* stop Nav */
 
 /* Main */
@@ -72,7 +79,7 @@ h3 {
 }
 
 section.red {
-    background-color: rgb(185, 168, 168);
+    background-color: red;
 }
 
 section.green {
